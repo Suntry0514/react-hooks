@@ -1,0 +1,15 @@
+/* export const CREATE_EVENT = 'CREATE_EVENT'
+export const DELTE_EVENT = 'DELETE_EVENT'
+export const DELTE_ALL_EVENT = 'DELETE_ALL_EVENT' */
+
+export const EventsAction = {
+    CREATE_EVENT: 'CREATE_EVENT',
+    DELTE_EVENT: 'DELETE_EVENT',
+    DELTE_ALL_EVENT: 'DELETE_ALL_EVENT'
+};
+
+export const OperationLogAction = {
+    ADD_OPERATION_LOG: 'ADD_OPERATION_LOG',
+    DELETE_ALL_OPERATION_LOGS: 'DELETE_ALL_OPERATION_LOGS'
+};
+
